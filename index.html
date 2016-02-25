@@ -1,17 +1,192 @@
 <!DOCTYPE html>
 <html>
-<heading>
-<title>Anthony's Portfolio
-</title>
-<heading>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+
+<head>
+  <title>Anthony's Portfolio</title>
+</head>
 
 <body>
-	<h1>
-		Anthony's Portfolio
-	</h1>
-	<p>
-		Test
-	</p>
+  <!-- Nav bar.  -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://codepen.io/antcho92/" alt="link to codepen profile">Anthony</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#page2">About Me</a></li>
+          <li><a href="#page3">Portfolio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Page 1 -->
+  <div id="home" class="container-fluid text-center">
+    <div class="title">
+      <h1>Anthony's Web Portfolio</h1>
+      <hr>
+      <p> Where I don't know what I'm doing</p>
+    </div>
+    <br>
+    <br>
+    <!-- social media buttons section. Might look into using col-sm-offset to put the buttons in the middle instead of blank columns -->
+    <div class="row">
+      <div class="col-sm-3 col-sm-offset-1">
+        <a class="btn btn-default btn-lg btn-social" href="http://www.freecodecamp.com/antcho92"><i class="fa fa-fire"> </i> FreeCodeCamp</a>
+      </div>
+      <div class="col-sm-3">
+        <a class="btn btn-default btn-lg btn-social" href="https://github.com/antcho92"><i class="fa fa-github"> </i> GitHub
+      </a>
+      </div>
+      <div class="col-sm-3">
+        <a class="btn btn-default btn-lg btn-social" href="http://codepen.io/antcho92/">C<i class="fa fa-codepen"></i>dePen
+        </a>
+        <div class="col-sm-1"></div>
+      </div>
+      </button>
+    </div>
+  </div>
 
-	</body>
+  <!-- Second "page" of the website. Want to figure out how to make the text into a box area -->
+  <div class="container-fluid text-center" id="page2">
+    <h2 class="title">About Me</h2>
+    <div class="row">
+      <div class="col-md-6 col-md-offset-2" id=paragraph>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+          dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p>I am self-learning front end web development in my spare time.
+        </p>
+      </div>
+      <div class="col-md-2 col-sm-8 col-xs-8 col-xs-offset-1 container-fluid">
+        <a href="https://goo.gl/08o4ne"><img class="image-responsive smaller-image" src="https://goo.gl/koFqTu" alt="A picture of an extremely attractive man"></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid text-center" id="portfolio">
+    <div class="row">
+      <h1>My Projects
+      </h1>
+    </div>
+    
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/Gowaee/" title="Link to project random quote machine" class="thumbnail">
+          <img src="https://goo.gl/0SvhAV" alt="Thumbnail of my random quote machine" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h3>Random Quote Machine</h4>
+            <p class="well">Made using bootstrap and jQuery. Draws randomly from a very small pool of quotes in an array when a button is pressed.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/KVJaMV/" title="Link to Angel tribute page" class="thumbnail">
+          <img src="https://goo.gl/DQbJQo" alt="Thumbnail of Angel tribute page" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h4>Angel's Tribute Page</h4>
+            <p class="well">Created using bootstrap. I made this page in honor of my dog who recently passed away.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/eJozBp/" title="Link to my local weather app" class="thumbnail">
+          <img src="https://goo.gl/bMHeQi" alt="Thumbnail of my local weather app" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h4>Local weather app</h4>
+            <p class="well">Made using jQuery and a weather API. This app gathers your local coordinates and uses it to display your local weather. It displays an icon for the corresponding weather.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/xZmpbB/" title="Link to simple calculator app" class="thumbnail">
+          <img src="https://goo.gl/3EOvnL" alt="Link to my simple calculator web app" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h4>Simple Calculator</h4>
+            <p class="well">Created using bootstrap and jQuery. This is a simple calculator.</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/Gowaee/" title="Link to project 1" class="thumbnail">
+          <img src="https://goo.gl/0SvhAV" alt="Link to my random quote machine" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h3>Random Quote Machine</h3>
+            <p class="well">Bootstrap and jQuery</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0">
+        <a href="http://codepen.io/antcho92/full/Gowaee/" title="Link to project 1" class="thumbnail">
+          <img src="https://goo.gl/0SvhAV" alt="Link to my random quote machine" class="img-responsive center-block thumbnail">
+          <div class="caption">
+            <h4>Random Quote Machine</h4>
+            <p class="well">Bootstrap and jQuery</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--  <div class="container-fluid text-center" id=page3>
+    <h2 class="title">My Projects</h2>
+    <div class="row">
+      <div class="col-sm-offset-2 col-sm-8 col-md-3 proj portfolio-picture">
+        <a href="http://codepen.io/antcho92/full/Gowaee/" title="Link to project 1" alt="Link to my random quote machine">
+          <img src="https://goo.gl/0SvhAV" alt="Link to my random quote machine" class="img-responsive center-block thumbnail">
+          <h4>Random Quote Machine</h4>
+          <p>Bootstrap and jQuery</p>
+        </a>
+      </div>
+      <div class="col-sm-4 btn proj">
+        <a href="http://codepen.io/antcho92/full/KVJaMV/" title="Link to project 2">
+          <img src="https://goo.gl/aLCfPy" class="img-responsive center-block portfolio-picture">
+          <h4>Angel's Tribute Page</h4>
+          <p>A tribute page I made for my dog</p>
+        </a>
+      </div>
+      <div class="col-sm-4 btn proj">
+        <a href="http://codepen.io/antcho92/full/eJozBp/" title="Link to project 3">
+          <img src="https://goo.gl/aLCfPy" class="img-responsive center-block">
+          <h4>Local Weather App</h4>
+          <p>Bootstrap and jQuery</p>
+        </a>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-sm-4 btn proj">
+        <a href="http://codepen.io/antcho92/full/xZmpbB/" title="Link to project 4">
+          <img src="https://goo.gl/aLCfPy" class="img-responsive center-block">
+          <h4>Simple Calculator</h4>
+          <p>jQuery</p>
+        </a>
+      </div>
+      <div class="col-sm-4 btn proj">
+        <a href="#" title="Link to project 5">
+          <img src="https://goo.gl/aLCfPy" class="img-responsive center-block">
+          <h4>Project 5</h4>
+          <p>Description</p>
+        </a>
+      </div>
+      <div class="col-sm-4 btn proj">
+        <a href="#" title="Link to project 6">
+          <img src="https://goo.gl/aLCfPy" class="img-responsive center-block">
+          <h4>Project 6</h4>
+          <p>Description</p>
+        </a>
+      </div>
+    </div>
+  </div>-->
+</body>
 </html>
