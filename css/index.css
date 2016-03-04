@@ -11,16 +11,16 @@ h1 {
 }
 #home {
   padding-top: 125px;
-  padding-bottom: 350px;
-  background: url(https://goo.gl/tRlsIv) no-repeat center fixed;
+  padding-bottom: 250px;
+  background: url("../images/backgrounds/ggsunset.jpg") no-repeat center fixed;
   background-size: cover;
   position: relative;
 }
 #page2 {
-  background: url(https://goo.gl/z5ihYl) no-repeat center fixed;
+  background: url("../images/backgrounds/panda.jpg") no-repeat center fixed;
   background-size: cover;
   padding-top: 55px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
   position: relative;
 }
 .smaller-image {
