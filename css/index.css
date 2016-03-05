@@ -11,7 +11,7 @@ h1 {
 }
 #home {
   padding-top: 125px;
-  padding-bottom: 250px;
+  padding-bottom: 550px;
   background: url("../images/backgrounds/ggsunset.jpg") no-repeat center fixed;
   background-size: cover;
   position: relative;
@@ -20,7 +20,7 @@ h1 {
   background: url("../images/backgrounds/panda.jpg") no-repeat center fixed;
   background-size: cover;
   padding-top: 55px;
-  padding-bottom: 200px;
+  padding-bottom: 300px;
   position: relative;
 }
 .smaller-image {
