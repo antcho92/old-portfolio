@@ -4,7 +4,8 @@
   color: #213f5e;
 }
 #paragraph{
-  text-shadow: 1px 1px 1px #ddd;
+  text-shadow: 1px 1px 1px #000;
+  color: #fff;
 }
 h1 {
   font-size: 50px;
@@ -63,4 +64,3 @@ borrowed from http://codepen.io/microMolvi/pen/ZQJgrY */
 #portfolio .well {
   margin: 0;
 }
-
