@@ -64,3 +64,7 @@ borrowed from http://codepen.io/microMolvi/pen/ZQJgrY */
 #portfolio .well {
   margin: 0;
 }
+
+ul {
+    list-style-position: inside;
+}
