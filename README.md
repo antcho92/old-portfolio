@@ -1,2 +1,2 @@
 # antcho92.github.io
-Making a website
+Portfolio website. Currently undergoing improvements due to other projects apis being changed.

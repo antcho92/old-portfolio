@@ -72,6 +72,9 @@ borrowed from http://codepen.io/microMolvi/pen/ZQJgrY */
 ul {
     list-style-position: inside;
 }
+.project {
+    background: white;
+}
 
 
 @media (min-width: 1824px) {
